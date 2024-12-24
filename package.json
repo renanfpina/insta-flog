@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "insta-flog-backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,21 +13,26 @@
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/renanfpina/insta-flog-backend"
   },
   "bugs": "",
   "keywords": [],
   "author": {
-    "name": "",
-    "email": "",
-    "url": ""
+    "name": "Renan Pina",
+    "email": "renanfpina@gmail.com",
+    "url": "https://github.com/renanfpina"
   },
   "contributors": [],
   "scripts": {
-    "dev": "",
+    "dev": "npx nodemon server.js",
     "test": ""
   },
   "dependencies": {
-    "express": "^4.21.1"
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "mongodb": "^6.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
